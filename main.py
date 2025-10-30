@@ -18,6 +18,12 @@ except Exception as e:
 
 app = FastAPI(title="KFS AI4Health Diabetes Prediction API")
 
+
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "API backend is running"}
+
+
 # Schema des données pour la prédiction
 class PatientData(BaseModel):
     gender: int
