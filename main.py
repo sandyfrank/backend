@@ -6,8 +6,8 @@ import xgboost as xgb
 import numpy as np
 
 # Charger modèle et scaler
-MODEL_PATH = "best_xgb_model.json"
-SCALER_PATH = "scaler.joblib"
+MODEL_PATH = "models/best_xgb_model.json"
+SCALER_PATH = "models/scaler.joblib"
 
 try:
     model = xgb.Booster()
