@@ -7,7 +7,6 @@ seaborn
 xgboost
 optuna
 scikit-learn
-ydata-profiling
 opencv-python-headless
 tensorflow
 pillow
