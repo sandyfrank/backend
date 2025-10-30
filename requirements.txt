@@ -1,16 +1,16 @@
 joblib
 numpy
 pandas
-streamlit
 matplotlib
 seaborn
 xgboost
 optuna
 scikit-learn
 opencv-python-headless
-tensorflow
+tensorflow<2.15   # prevent latest TF forcing Pydantic 2.x indirectly
 pillow
 
 fastapi==0.95.2
 uvicorn[standard]==0.22.0
 pydantic==1.10.9
+streamlit<1.25
